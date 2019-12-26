@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class PlayerController: MonoBehaviour
 {
-    public float moveSpeed = 3.0f;
+    public float movingSpeed = 3.0f;
     public Rigidbody2D player;
     public GameObject bullet;
-    public float jumpSpeed = 3.0f;
+    public float jumpingSpeed = 3.0f;
     public Animator animator;
     
 
